@@ -3,7 +3,6 @@ import requests
 
 app = Flask(__name__)
 
-# UPDATE THIS localhost with BACKEND IP
 BACKEND_URL = "http://localhost:3000/tasks"
 
 @app.route("/")
